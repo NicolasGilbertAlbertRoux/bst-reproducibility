@@ -1,0 +1,12 @@
+section,type_of_claim,evidence_or_test,scope
+1,postulate,paper/manuscript-en.md · chapter 1,One common physical substrate and a hierarchy of resolution are postulates.
+1–3,analytic and numerical,replay.py pair; substrate; reduced-dynamics; clocks-and-flux,"Toy trajectories, signal and clock rates, finite spacing and constitutive laws. Common cone requires matched limiting speeds on the stated background."
+4–5,measured and simulated,evidence/claim-register.csv; replay.py domain-observables; atomic-modes; cosmology; physics,"Input measurements, calibrations and scoped comparisons for all 11 domains."
+4,spectroscopy,replay.py clocks-and-flux; atomic-modes,Reconstruction from measured strontium levels and a test of archived operators; a microscopic BST prediction of the clock line is open.
+"4, 5, C",atlas and projections,replay.py atlas; observatory/index.html,"Neutral reference counts, reconstructed counts and missing isotope/ion wave counts remain explicitly distinct."
+6,constructive and formal,replay.py cognition; memory-extension; proofs,"Paired latent traces, readout bounds, attribution under premises and observational equivalence."
+"1, 6, 7",philosophical hypothesis,"chapter 6, sealed-vessel argument; replay.py cognition",An external origin of agency is an optional additional premise. Published experiments and the simulations do not establish it.
+"7, C",conditioned prediction,replay.py neon,2.4 bar calibrates. Four other pressures are predictions under the specified preparation and optical assumptions.
+A,joint benchmark,replay.py physics; observatory/index.html,"68 scoped outcomes, 44 conditional. 192/576 combinations satisfy the other 67 scoped checks."
+"B, C",formal or algebraic,replay.py proofs; domain-observables; foundations,The hypotheses and claimed implications in Lean and the reduced phase action can be inspected separately.
+D,attribution,bibliography.csv; Appendix D,"Resource origins, published comparators and human/AI contributions."

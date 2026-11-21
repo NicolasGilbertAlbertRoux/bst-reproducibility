@@ -1,0 +1,13 @@
+calculation,replay_command,path_relative_to_output_directory
+Moving beat and echo clocks,substrate,substrate/substrat/Horloges_R412.csv
+Local substrate response,substrate,substrate/substrat/Reponse_locale_R412.json
+Static-background clock replay,substrate,substrate/substrat/Rejeu_horloges_R411.json
+Reduced mantle pair,reduced-dynamics,reduced-dynamics/Comparaison_S14c.json
+Strontium beat and flux,clocks-and-flux,clocks-and-flux/Battement_flux_strontium.json
+Atomic contact and angular controls,atomic-modes,atomic-modes/d01/Relecture_D01.json
+Strontium modes figure,atomic-modes,atomic-modes/d01/Modes_du_strontium.png
+Clauses and supporting records,domain-observables,domain-observables/domaines/Parcours_des_29_clauses.csv
+Numerical report by domain,domain-observables,domain-observables/domaines/Relecture_des_domaines.json
+Bistable memory readout margin,domain-observables,domain-observables/domaines/Marge_de_lecture_H528.png
+Reference structures and reduced harmonic site vibrations,projections,crystals.js
+Spectral filters and transmitted daylight at six optical paths,projections,optics.js

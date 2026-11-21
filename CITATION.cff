@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "For the manuscript, consult Appendix D for the contributors and their roles. Cite the dated edition and the preparation or benchmark clause used."
+title: "Beating Substrate Theory: a geometric model at multiple resolutions"
+authors:
+  - name: "Beating Substrate Theory project"
+version: "2026.11.21"
+date-released: 2026-11-21
+type: software
