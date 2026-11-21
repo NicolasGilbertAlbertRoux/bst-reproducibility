@@ -1,0 +1,33 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec,amsmath,unicode-math}
+\setmainfont{DejaVu Serif}\setsansfont{DejaVu Sans}\setmonofont[Scale=0.85]{DejaVu Sans Mono}
+\setmathfont{Latin Modern Math}
+\usepackage{babel}\babelprovide[main,import]{french}
+\usepackage[a4paper,left=23mm,right=23mm,top=22mm,bottom=22mm,footskip=11mm,headheight=14pt]{geometry}
+\usepackage{graphicx,xcolor,booktabs,longtable,array,calc,fancyhdr,titlesec,etoolbox,needspace}
+\usepackage[unicode,colorlinks=true]{hyperref}\urlstyle{same}
+\definecolor{bst}{HTML}{155B5B}\definecolor{encre}{HTML}{25353B}
+\hypersetup{bookmarksdepth=3,linkcolor=bst,urlcolor=bst,pdftitle={Théorie du substrat battant},pdfsubject={Un modèle géométrique à plusieurs résolutions}}
+\setcounter{secnumdepth}{-1}\setcounter{tocdepth}{1}\setlength{\parindent}{0pt}\setlength{\parskip}{.5em plus .06em minus .04em}\setlength{\emergencystretch}{6em}
+\newcommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\pandocbounded}[1]{#1}
+\makeatletter\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>.55\textheight .55\textheight\else\Gin@nat@height\fi}\makeatother
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\makeatletter
+\renewenvironment{figure}[1][]{\par\addvspace{.6\baselineskip}\noindent\begin{minipage}{\linewidth}\def\@captype{figure}}{\end{minipage}\par\addvspace{.6\baselineskip}}
+\makeatother
+\let\oldsec\section\renewcommand\section{\par\Needspace{11\baselineskip}\oldsec}
+\titleformat{\section}{\sffamily\bfseries\raggedright\color{bst}\fontsize{18}{23}\selectfont}{}{0pt}{}
+\titleformat{\subsection}{\sffamily\bfseries\color{bst}\fontsize{13}{17}\selectfont}{}{0pt}{}
+\renewcommand{\contentsname}{Sommaire}\renewcommand{\figurename}{Figure}
+\pagestyle{fancy}\fancyhf{}\fancyhead[L]{\small\sffamily\color{bst}BST}\fancyhead[R]{\small\sffamily Un modèle géométrique à plusieurs résolutions}\fancyfoot[L]{\small\sffamily BST · Lecture par les pairs}\fancyfoot[R]{\sffamily\thepage}\renewcommand{\headrulewidth}{.3pt}
+\begin{document}
+{\sffamily\color{bst}\small Édition pour la lecture par les pairs · 21 novembre 2026\par}\vspace{1.4cm}
+{\sffamily\bfseries\fontsize{30}{36}\selectfont Théorie du substrat battant\par}\vspace{.3cm}
+{\sffamily\Large Un modèle géométrique à plusieurs résolutions\par}\vspace{.75cm}
+{\small Contributions à la recherche et à la rédaction détaillées en annexe D\par}\vspace{1cm}
+@@ABSTRACT@@
+\clearpage\tableofcontents\clearpage
+@@BODY@@
+\end{document}

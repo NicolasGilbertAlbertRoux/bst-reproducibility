@@ -1,0 +1,42 @@
+{
+  "krypton_modes.npz": {
+    "archive_member": "modal_scenes/scene_kr.npz",
+    "archive": "benchmark-inputs.zip",
+    "model": "309 numerical sites; eight displacement modes; this is a distinct preparation from the neutral atlas count.",
+    "sha256": "9344f3246b3efe27cea36ec20af48233e5b53f39e7ae86d8ed51b297c069606d"
+  },
+  "carbon_geometry.npz": {
+    "archive": "atomic_relaxed_stable_bases_H_Kr_v65.npz",
+    "archive_sha256": "51fcda664d64aedfcd187b36003f74bd189532b206d51eb0a8a0ff4eeb8fdb15",
+    "fields": [
+      "Z06_C_relaxed_position",
+      "Z06_C_surface"
+    ],
+    "model": "34-site candidate relaxation, including 21 surface sites. The neutral count has conditional reconstruction status in the R557 atlas.",
+    "sha256": "66a1c49126271b4b05aeb2852587cec0cecf66312a10524d0a6d5cc165cabb2f",
+    "potential_archive": "BST_V65_STABILITY_MULTIPLET_BRIDGE_PATCH.zip",
+    "potential_member": "scripts/run_v65_stability_multiplet_bridge.py",
+    "potential_archive_sha256": "918b6b9c340ff59f63fcb272ed2864280fe273fe14ffc299e760ab3595adbb83"
+  },
+  "krypton_pair.dat": {
+    "archive_member": "potentiel_kr.dat",
+    "model": "Numerical Kr pair potential from the research package; first eight entries specify the analytic curve.",
+    "sha256": "5a5596861eb3ea47f016bceda4cfafad8e6af4330b75292f8ada2129baadba49"
+  },
+  "krypton_units.json": {
+    "sources": [
+      "potentiels_and_states.json",
+      "calorimetry_and_virials.json"
+    ],
+    "model": "Native-to-SI scale including the common size correction.",
+    "sha256": "9973853e071aec876b44a426b069838387ec178084a200039d2f512926e536d3"
+  },
+  "light-element-relaxations.npz": {
+    "source": "Atomic relaxed stable bases H\u2013Kr, V65. All 36 full candidate geometries including native surface markers.",
+    "sha256": "51fcda664d64aedfcd187b36003f74bd189532b206d51eb0a8a0ff4eeb8fdb15"
+  },
+  "substrate-grid.json": {
+    "source": "Nine coefficient-grid runs from physics_support/croisement_substrate.json in the benchmark inputs. The two numerical controls are excluded from the coefficient selector.",
+    "sha256": "c0f295e47b31049ed3fd0d9976caa77d8e38254a659f695f8c87e03f850566aa"
+  }
+}

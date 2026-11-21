@@ -1,0 +1,132 @@
+{
+  "Kr2": {
+    "period_ps": 1.6547546719598802,
+    "turning_A": [
+      3.766995073683645,
+      4.461408045446332
+    ],
+    "chosen_outer_ratio": 1.11,
+    "radial_energy_above_minimum_meV": 4.211637985059649,
+    "frequency_THz": 0.6043191881825036,
+    "fundamental_spacing_meV": 2.4992633451976314,
+    "stored_energy_span_reduced": 1.6653345369377348e-15,
+    "sites": 309,
+    "positive_modes_replayed": 8,
+    "internal_offsets_native": [
+      0.0,
+      0.39
+    ],
+    "internal_interval_native": 3.183145420523719,
+    "site_displacement_gain": 1,
+    "equilibrium_A": 4.019286527429128,
+    "surface_radius_A_range": [
+      1.9790816401875349,
+      2.0220801432081004
+    ],
+    "surface_anchor_A": 2.009643263714564,
+    "surface_markers": 174,
+    "native_length_scale_A": 0.5272078599832454,
+    "max_boost_error": 1.3322676295501878e-15,
+    "max_rigid_rotation_norm": 1.848521049038422e-15,
+    "gaussian_widths_A": [
+      0.4140664837638673,
+      0.5557208071567693
+    ],
+    "nearest_spacing_A": 0.5448243207419307,
+    "reference_density_levels": [
+      [
+        0.008978302590548992,
+        0.007738209329545498
+      ],
+      [
+        0.008978302590548992,
+        0.007738209329545498
+      ]
+    ],
+    "reference_inversion_residuals": [
+      0.0022261959966272116,
+      0.000804870156571269,
+      0.0022261959966272116,
+      0.000804870156571269
+    ],
+    "rest_component_counts": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "dynamic_connectivity_checks": 288,
+    "dynamic_component_range": [
+      1,
+      1
+    ],
+    "fixed_mantle_exposure": 0.7690606117248535,
+    "fixed_interior_exposure": 1.3427677154541016,
+    "visual_time": "one prepared radial cycle synchronized to an independent native atomic window",
+    "optical_meaning": "mechanical false colour"
+  },
+  "C2": {
+    "positive_modes": 96,
+    "surface_sites": 21,
+    "local_radial_preparation": 0.012,
+    "internal_interval_native": 0.7492650229944535,
+    "mode_energy_relative_span": 3.742770244629608e-16,
+    "hessian_fd_relative_error": 6.575179282748777e-10,
+    "sites": 34,
+    "equilibrium_A": 1.2661,
+    "wavenumber_cm": 1788.22,
+    "molecular_classical_amplitude_A": 0.025,
+    "period_fs": 18.653414859365853,
+    "optical_band_heads_nm": [
+      473.7,
+      516.5,
+      563.5
+    ],
+    "visible_head_eV": 2.4004685079031995,
+    "surface_radius_A_range": [
+      0.5655121675584768,
+      0.6856941526041452
+    ],
+    "surface_anchor_A": 0.63305,
+    "surface_markers": 21,
+    "native_length_scale_A": 0.4378264857213266,
+    "max_boost_error": 1.033895191682177e-15,
+    "max_rigid_rotation_norm": 1.5327684451847478e-15,
+    "gaussian_widths_A": [
+      0.29632793041156874,
+      0.3977032750260528
+    ],
+    "nearest_spacing_A": 0.3899051715941694,
+    "reference_density_levels": [
+      [
+        0.0006294689956121147,
+        0.0004905194509774446
+      ],
+      [
+        0.0006294689956121147,
+        0.0004905194509774446
+      ]
+    ],
+    "reference_inversion_residuals": [
+      0.06204269826412201,
+      0.03143732622265816,
+      0.06204267218708992,
+      0.03143732249736786
+    ],
+    "rest_component_counts": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "dynamic_connectivity_checks": 288,
+    "dynamic_component_range": [
+      1,
+      1
+    ],
+    "fixed_mantle_exposure": 0.16381756961345673,
+    "fixed_interior_exposure": 0.6203532218933105,
+    "visual_time": "one prepared radial cycle synchronized to an independent native atomic window",
+    "optical_meaning": "measured band; hypothetical spatial weight"
+  }
+}
