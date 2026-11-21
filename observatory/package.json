@@ -1,0 +1,9 @@
+{
+  "name": "bst-observatory",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Optional command-line GIF export from the offline projection observatory",
+  "dependencies": {
+    "@napi-rs/canvas": "0.1.100"
+  }
+}

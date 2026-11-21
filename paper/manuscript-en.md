@@ -838,7 +838,7 @@ A discriminating test of the arbiter would concern a branch point. Two candidate
 
 ## Reproducibility
 
-The repository supplied with this edition is named **bst-reproducibility**. The manuscript, inputs, readout implementations and expected results refer to the same scientific register. Appendix A links results to requirements. Appendix B gives replay commands and environments. Appendix C specifies how to compare a new measurement with the frozen predictions. Appendix D identifies primary observations, software and contributions.
+The repository for this edition is available on GitHub at [bst-reproducibility](https://github.com/NicolasGilbertAlbertRoux/bst-reproducibility). The manuscript, inputs, readout implementations and expected results refer to the same scientific register. Appendix A links results to requirements. Appendix B gives replay commands and environments. Appendix C specifies how to compare a new measurement with the frozen predictions. Appendix D identifies primary observations, software and contributions.
 
 Three checks answer different questions. SHA-256 checksums identify the supplied files. Re-running the programs tests whether they reproduce the archived values. A new observation with an independent instrument tests physical correspondence, including preparation and readout uncertainty. For neon the table, program and command are supplied here. The powers at the four held-out pressures must come from measurement.
 
@@ -1012,7 +1012,7 @@ Associated condition. In the synchronized Hopkins experiment, voltage gives timi
 
 ## Replaying the benchmark
 
-From the extracted repository, the following command verifies the supplied files against their SHA-256 checksums. The archive is a private review copy of the proposed repository named `bst-reproducibility`.
+From the root of the [BST reproducibility repository](https://github.com/NicolasGilbertAlbertRoux/bst-reproducibility), run the following command to verify the files against their SHA-256 checksums.
 
 ~~~sh
 python3 replay.py integrity

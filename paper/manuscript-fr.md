@@ -838,7 +838,7 @@ Pour l’arbitre, l’épreuve décisive porterait sur l’orientation prise à 
 
 ## Reproductibilité
 
-Le dépôt de cette édition porte le nom **bst-reproducibility**. Le manuscrit, les données d’entrée, les lecteurs et les résultats attendus se rapportent au registre des 68 exigences. L’annexe A relie chaque résultat à son exigence. L’annexe B indique les commandes et les environnements. L’annexe C donne les conditions nécessaires pour confronter une mesure nouvelle aux prédictions. L’annexe D renvoie aux observations d’origine, aux logiciels et aux contributions.
+Le dépôt de cette édition est accessible sur GitHub : [bst-reproducibility](https://github.com/NicolasGilbertAlbertRoux/bst-reproducibility). Le manuscrit, les données d’entrée, les lecteurs et les résultats attendus se rapportent au registre des 68 exigences. L’annexe A relie chaque résultat à son exigence. L’annexe B indique les commandes et les environnements. L’annexe C donne les conditions nécessaires pour confronter une mesure nouvelle aux prédictions. L’annexe D renvoie aux observations d’origine, aux logiciels et aux contributions.
 
 Trois opérations répondent à trois questions différentes. Vérifier les empreintes SHA-256 établit que l’on dispose des fichiers attendus. Relancer les programmes permet de comparer les valeurs recalculées aux sorties archivées. Enfin, acquérir un nouvel enregistrement avec un instrument indépendant éprouve la correspondance physique, y compris la préparation et les incertitudes de lecture. Pour le néon, par exemple, le tableau, le code et la commande sont fournis. La puissance aux quatre pressions réservées doit venir d’une mesure.
 
@@ -1012,7 +1012,7 @@ Condition associée. Pour le protocole synchronisé de Hopkins, la tension fixe 
 
 ## Rejouer
 
-Depuis le dépôt extrait, cette commande vérifie les fichiers avec leurs empreintes SHA-256. L’archive est l’exemplaire privé de relecture du dépôt proposé sous le nom `bst-reproducibility`.
+Depuis la racine du [dépôt de reproductibilité BST](https://github.com/NicolasGilbertAlbertRoux/bst-reproducibility), cette commande vérifie les fichiers à partir de leurs empreintes SHA-256.
 
 ~~~sh
 python3 replay.py integrity
