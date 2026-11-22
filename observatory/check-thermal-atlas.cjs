@@ -5,7 +5,7 @@ const {createCanvas} = require('@napi-rs/canvas');
 const {runInThisContext} = require('node:vm');
 const {load, read} = require('./render.cjs');
 
-const P = load(true);
+const P = load();
 const atlas = runInThisContext('AtlasState');
 const thermal = runInThisContext('ThermalView');
 const optical = runInThisContext('OpticalView');

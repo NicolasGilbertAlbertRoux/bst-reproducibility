@@ -11,3 +11,11 @@ Numerical report by domain,domain-observables,domain-observables/domaines/Relect
 Bistable memory readout margin,domain-observables,domain-observables/domaines/Marge_de_lecture_H528.png
 Reference structures and reduced harmonic site vibrations,projections,crystals.js
 Spectral filters and transmitted daylight at six optical paths,projections,optics.js
+Off-clock frequency estimates,strontium,strontium/predictions.json
+Clock comparisons and optical versus interval errors,strontium,strontium/comparison.json
+Independent interventions on collective order and relative phase,phase-controls,phase-controls/four-controls.json
+R16 atomic mode bank,atomic-correspondence,atomic-correspondence/BST_ATOMIC_MODE_BANK_Z001_Z118_R16.csv
+Continuation of strontium modes by displacement overlap,atomic-correspondence,atomic-correspondence/shape-predictions.json
+Comparison with reference after shape matching,atomic-correspondence,atomic-correspondence/correspondence.json
+Joint benchmark and strontium interval errors,joint-validation,joint-validation/joint-checks.json
+All combinations of benchmark assembly and local strontium contrast,joint-validation,joint-validation/intersection.csv

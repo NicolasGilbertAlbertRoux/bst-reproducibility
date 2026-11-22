@@ -7,6 +7,8 @@ import argparse, csv, hashlib, json, math, os, subprocess, sys
 ROOT=Path(__file__).resolve().parent
 from reference.stage import stage, digest
 SECTIONS={'pair':'ouverture','reduced-dynamics':'reduction','substrate':'substrat','clocks-and-flux':'battement','atomic-modes':'d01','domain-observables':'domaines','foundations':'premiers-essais','cognition':'cognition','memory-extension':'latent','archived-movies':'animations','cosmology':'cosmologie','physics':'physique-rapide'}
+SUPPLEMENTS = ('strontium', 'phase-controls', 'atomic-correspondence', 'joint-validation')
+
 def verify():
     registry=json.loads((ROOT/'checksums.json').read_text())
     for name,expected in registry.items():
@@ -30,7 +32,7 @@ def check_observer(actual, expected, location='observer'):
         raise ValueError(f'Observer value differs at {location}')
 
 def run(args):
-    if args.section=='list':print('\n'.join(['integrity',*SECTIONS,'proofs','observatory','projections','export-atlas','atlas','neon','extract','all','long']));return
+    if args.section=='list':print('\n'.join(['integrity',*SECTIONS,*SUPPLEMENTS,'proofs','observatory','projections','export-atlas','atlas','neon','extract','all','long']));return
     if not __debug__:raise RuntimeError('Run Python without -O. Scientific checks use assertions.')
     if args.section=='integrity':print(json.dumps(verify()));return
     if args.output.exists() and any(args.output.iterdir()):raise SystemExit('Choose an empty output directory.')
@@ -75,6 +77,18 @@ def run(args):
                 with (out/(key+'.log')).open('w') as f:
                     subprocess.run([sys.executable,str(base/'rejouer.py'),'--choix',SECTIONS[key],'--sortie',str(destination)],env=env,stdout=f,stderr=subprocess.STDOUT,check=True)
                 report[key]=json.loads((destination/'BILAN.json').read_text())
+            if args.section in ('strontium', 'joint-validation', 'all'):
+                from supplement.strontium import run as check_strontium
+                report['strontium'] = check_strontium(base, out / 'strontium')
+            if args.section in ('atomic-correspondence', 'joint-validation', 'all'):
+                from supplement.mode_correspondence import run as check_correspondence
+                report['atomic-correspondence'] = check_correspondence(base, out / 'atomic-correspondence')
+            if args.section in ('joint-validation', 'all'):
+                from supplement.joint_validation import run as check_joint_validation
+                report['joint-validation'] = check_joint_validation(base, out)
+            if args.section in ('phase-controls', 'all'):
+                from supplement.phase_controls import run as check_phase_controls
+                report['phase-controls'] = check_phase_controls(out / 'phase-controls')
             if args.section=='all':
                 from projections.rebuild import rebuild
                 report['projections']=rebuild(out/'projections')
@@ -85,7 +99,7 @@ def run(args):
     print(out/'report.json')
 def main():
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('section',choices=['list','integrity',*SECTIONS,'proofs','observatory','projections','export-atlas','atlas','neon','extract','long','all'])
+    p.add_argument('section',choices=['list','integrity',*SECTIONS,*SUPPLEMENTS,'proofs','observatory','projections','export-atlas','atlas','neon','extract','long','all'])
     p.add_argument('--output',type=Path,default=Path('bst-results'));p.add_argument('--element',help='Limit the atlas to one element symbol')
     p.add_argument('--pressure',type=float,default=3.1);p.add_argument('--interval',nargs=2,type=float,metavar=('LOW_NW','HIGH_NW'))
     run(p.parse_args())

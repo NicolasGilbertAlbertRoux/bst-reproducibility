@@ -1,0 +1,10 @@
+{
+  "clock_Hz": {
+    "87": {"value": "429228004229872.992", "source": "https://www.bipm.org/documents/20126/288515313/87Sr_429THz_2025/bbd827f7-3e1e-5fbe-6bd8-0eadd9b5b674"},
+    "88": {"value": "429228066418007.008", "source": "https://www.bipm.org/documents/20126/288515361/88Sr_429THz_2025/3d0db6ba-4c3f-2146-4bde-88a88b95c671"}
+  },
+  "paper_87Sr_F9_over_2": {
+    "ground_to_P1_Hz": 434829343010000, "P0_to_P1_Hz": 5601338670000,
+    "indirect_u_Hz": 70000, "source": "https://doi.org/10.1140/epjd/e2005-00058-0"
+  }
+}

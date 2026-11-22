@@ -1,0 +1,14 @@
+{
+  "convention": "Absolute optical frequencies in Hz at zero applied field. The three shifts are 88Sr minus the fine-structure centre of gravity of 87Sr. Lifetimes in seconds, rates in inverse seconds. Two quoted independent uncertainty components are combined in quadrature.",
+  "observations": {
+    "red88": {"value": 434829121311000, "u": [10000], "source": "Ferrari et al., published total uncertainty of 10 kHz; https://doi.org/10.1103/PhysRevLett.91.243002. Sansonetti and Nave, Table 2, list 5 kHz systematic and 5 kHz statistical; https://doi.org/10.1063/1.3449176"},
+    "red_shift": {"value": 62186500, "u": [600,11700], "source": "Miyake et al., 88Sr-87Sr fine-structure centroid, 3P1 column (Table II in the preprint arXiv:1907.06746); https://doi.org/10.1103/PhysRevResearch.1.033113"},
+    "quadrupole88": {"value": 446647242704000, "u": [2000], "source": "Absolute-frequency measurement of the 1S0-3P2 line; https://arxiv.org/abs/2211.02470"},
+    "quadrupole_shift": {"value": 62910000, "u": [40000], "source": "Hyperfine-corrected isotope shift; https://arxiv.org/abs/2211.02470"},
+    "blue88": {"value": 650503815000000, "u": [5000000], "source": "Lee et al., experimental preprint; https://arxiv.org/abs/2607.29056"},
+    "blue_shift": {"value": 44600000, "u": [400000], "source": "Rice University thesis, Appendix B, table B.3, sign converted; https://ultracold.rice.edu/publications/thesis_main-20190909-1500.pdf"},
+    "triplet_lifetime": {"value": 0.00002128, "u": [0.00000003], "source": "Nicholson et al., 87Sr cascade fluorescence; https://doi.org/10.1038/ncomms7896"},
+    "singlet_lifetime": {"value": 5.216e-9, "u": [0.006e-9,0.013e-9], "source": "Puljic et al.; https://doi.org/10.1103/PhysRevA.111.032809"},
+    "singlet_leak": {"value": 5300, "u": [500], "source": "Okamoto et al., 1P1 to 1D2; https://doi.org/10.1103/8b7c-l2jl"}
+  }
+}

@@ -11,7 +11,7 @@ This repository accompanies the English and French manuscripts on Beating Substr
 | Claims, conditions and replay sections | [Requirement register](evidence/requirements.csv) · [chapter guide](evidence/claim-guide.csv) · [output file index](evidence/reader-files.csv) |
 | Primary sources and external data | [Bibliography](evidence/bibliography.csv) · Appendix D |
 | Numerical implementation and formal statements | [Scientific sources](reference/sources/) · [Lean projects](proofs/) |
-| Verification performed for this edition | [Verification record](evidence/verification.md) |
+| Computational verification | [Verification record](evidence/verification.md) · [Audit results (JSON)](evidence/audit.json) |
 
 ## Reproduce a result
 
@@ -25,6 +25,19 @@ python -m pip install -r requirements.txt
 python replay.py pair --output ../bst-pair
 python replay.py list
 ```
+
+The following commands reproduce the strontium calculations, the joint tolerance test and the crossed phase controls. `strontium` reads the frozen contact geometry and off-clock measurements, records predictions, and then compares them with the two clock references. `phase-controls` independently varies collective orientation and relative-phase reset for all 256 words.
+
+```sh
+python replay.py strontium --output ../bst-strontium
+python replay.py phase-controls --output ../bst-phase-controls
+python replay.py atomic-correspondence --output ../bst-atomic-correspondence
+python replay.py joint-validation --output ../bst-joint
+```
+
+The [original R16 atomic-signature archive](supplement/atomic-signatures.zip) contains its code, inputs and mode catalogue for all 118 atoms. `atomic-correspondence` rebuilds that bank, verifies its match to the strontium geometry and follows the selected two-field modes by their shapes as the surface-weight contrast varies. The electronic term labels and the geometric mode assignments are documented in Appendix B.
+
+The `joint-validation` command checks the codes of all 67 contributing clauses for every assembly. It also scores both measured spacings of strontium-87 and strontium-88 at all five previously specified inertia contrasts. At contrast 1.05, the geometric errors are 2.93% and 4.78% on the two spacings. The same local setting is compatible with 192 benchmark assemblies. The CSV records every combination, including the four other contrasts.
 
 The pair example integrates an internal beat coupled to the distance between two centres. Its output contains the trajectory, a plot and a JSON report. The `reduced-dynamics` section checks the time step and what information is lost when the internal state is omitted. In the measurements tab, the default paired-wave trace reproduces the first 20 time units of this trajectory. The full numerical example extends to 160.
 
@@ -52,7 +65,7 @@ Install C and C++17 compilers for the native numerical kernels. The Linux route 
 python replay.py all --output ../bst-standard
 ```
 
-This single command runs all twelve numerical sections, rebuilds the observatory data, regenerates the four reference films and new projection inputs, exports the catalogue and recompiles the formal proofs. It writes a summary to `report.json` and individual logs beside each section. The physics replay recomputes the fourteen registered summary outputs using the supplied field and transport inputs. A checksum match tests reproducibility with the supplied inputs. The 97 cognitive tests exercise the stated models and protocols. The 84 Lean declarations have explicit premises and dependencies in `proofs/declarations.csv`.
+This single command runs all twelve historical numerical sections and the four supplementary checks, rebuilds the observatory data, regenerates the four reference films and new projection inputs, exports the catalogue and recompiles the formal proofs. It writes a summary to `report.json` and individual logs beside each section. The physics replay recomputes the fourteen registered summary outputs using the supplied field and transport inputs. A checksum match tests reproducibility with the supplied inputs. The 97 cognitive tests exercise the stated models and protocols. The 84 Lean declarations have explicit premises and dependencies in `proofs/declarations.csv`.
 
 ### Long field integrations
 

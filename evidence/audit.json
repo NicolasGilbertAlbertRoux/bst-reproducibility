@@ -1,0 +1,1515 @@
+{
+  "date": "2026-11-22",
+  "base_git_commit": "f9c9e529dac86846d822dc442d353d451f24ccc7",
+  "standard_command": "python3 replay.py all --output ../bst-standard",
+  "historical_audit_report_sha256": "f08b607a6eae62f10d1cb0751ac99b0e56cbe260eed345cecf5558cb59918a90",
+  "historical_report_keys_with_equal_values": [
+    "observatory",
+    "pair",
+    "reduced-dynamics",
+    "substrate",
+    "clocks-and-flux",
+    "atomic-modes",
+    "domain-observables",
+    "foundations",
+    "cognition",
+    "memory-extension",
+    "archived-movies",
+    "cosmology",
+    "physics",
+    "projections",
+    "proofs",
+    "atlas"
+  ],
+  "joint_benchmark": {
+    "registered_rows": 68,
+    "joint_decision_row": "J00.1",
+    "checks_per_combination": 67,
+    "combinations": 576,
+    "compatible_with_all_other_checks": 192,
+    "scoped_results": 68,
+    "explicitly_conditional": 44,
+    "whole_contracts_met": 6,
+    "whole_contracts_total": 28,
+    "strontium_spacing_test": "See standard_report_excluding_file_inventory/joint-validation. The additional inertia contrast is local to strontium."
+  },
+  "standard_report_excluding_file_inventory": {
+    "observatory": "recomputed",
+    "pair": {
+      "fichiers_archives_verifies": 172,
+      "choix": "ouverture",
+      "ouverture": {
+        "preparation": "G=0.4, E_b=0.30",
+        "horizon": 160,
+        "instants": 1601,
+        "energie_initiale": 0.09999999999999998,
+        "derive_absolue_max_sur_40001_etats": 0.0001911337399742863,
+        "d_extremes_echantillonnes": [
+          1.889299625182995,
+          2.5888750690135374
+        ]
+      },
+      "dispersion_R412": {
+        "maillages": 4,
+        "directions": 2,
+        "fichier": "Dispersion_R412.csv"
+      }
+    },
+    "reduced-dynamics": {
+      "fichiers_archives_verifies": 172,
+      "choix": "reduction",
+      "reduction": {
+        "serie_contact_et_pas": 8,
+        "fichier": "Comparaison_S14c.json"
+      }
+    },
+    "substrate": {
+      "fichiers_archives_verifies": 172,
+      "choix": "substrat",
+      "substrat": {
+        "lectures_horloges": 36,
+        "preparations_locales": 2,
+        "R411": {
+          "preparations_radiales": 24,
+          "modes_par_preparation": 2,
+          "trajectoires_transverses": 12,
+          "ecart_max_rapport_radial": 1.2682477290582028e-10,
+          "ecart_relatif_max_transverse_pas_fin": 1.3346597738106425e-07
+        }
+      }
+    },
+    "clocks-and-flux": {
+      "fichiers_archives_verifies": 172,
+      "choix": "battement",
+      "battement_flux_strontium": {
+        "preparations": 3,
+        "courants_de_champ": 3,
+        "actes_publics": 6,
+        "classes_de_source": 4,
+        "frequence_indirecte_Hz": 429228004340000,
+        "fichier": "Battement_flux_strontium.json"
+      }
+    },
+    "atomic-modes": {
+      "fichiers_archives_verifies": 172,
+      "choix": "d01",
+      "d01": {
+        "operateurs": 82,
+        "modes_positifs_Sr": 17,
+        "paires_deux_champs": 561,
+        "ecart_minimum_absolu_Hz": 943017312660.0
+      }
+    },
+    "domain-observables": {
+      "fichiers_archives_verifies": 172,
+      "choix": "domaines",
+      "domaines": {
+        "domaines": 11,
+        "clauses": 29,
+        "pieces": 56,
+        "amplitudes_R446": 864,
+        "paires_H528": 72,
+        "sites_phase": 1728
+      }
+    },
+    "foundations": {
+      "fichiers_archives_verifies": 172,
+      "choix": "premiers-essais",
+      "premiers_essais": 6,
+      "plaquettes_S2": {
+        "modele": "U(1) compact, champ initial nul, réseau périodique 6^4",
+        "beta": 1.0,
+        "rotation_radians": 0.4,
+        "separations_en_mailles": {
+          "1": {
+            "somme_separee": 0.9472680719653788,
+            "variation_simultanee": 0.789390059971149
+          },
+          "2": {
+            "somme_separee": 0.9472680719653788,
+            "variation_simultanee": 0.9472680719653788
+          }
+        }
+      }
+    },
+    "cognition": {
+      "fichiers_archives_verifies": 172,
+      "choix": "cognition",
+      "cognition": {
+        "etapes_historiques": 10,
+        "tests_historiques": 97,
+        "json_historiques_identiques_en_octets": 15,
+        "deuxieme_fenetre_distingue_contenu": true,
+        "memoire_de_phase": {
+          "bits": 3,
+          "messages": 8,
+          "times": 41,
+          "trials": 328,
+          "correct_recall_preserving_model": 328,
+          "correct_recall_phase_erased_model": 41,
+          "coarse_norm_reader_identical": true,
+          "coarse_norm_reader_max_error": 3.3306690738754696e-16,
+          "transported_memory_max_error": 2.2677077516826767e-16,
+          "norm_max_error": 2.220446049250313e-16,
+          "recovery_requires_known_phase_reference": true,
+          "invariant_applies_between_writes": true,
+          "new_learning_changes_memory": true,
+          "identity_of_a_subject_not_derived": true,
+          "physical_erasure_cost_not_modeled": true,
+          "interpretation": "Conservation of a scalar norm does not prove preservation of memory content; a content-bearing transport and a readout are separate requirements."
+        },
+        "contenus_bistables_lus": 144,
+        "trajectoires": 144,
+        "comparaisons_appariees": 72,
+        "instants_figure_verifies": 801,
+        "borne_energie": {
+          "lam": [
+            0.5,
+            2.0
+          ],
+          "eta": [
+            0.2,
+            0.8
+          ],
+          "mass": [
+            0.5,
+            2.0
+          ],
+          "impulse": [
+            0.02,
+            0.2
+          ],
+          "maximum_initial_energy": 0.02,
+          "minimum_crossing_barrier": 0.125,
+          "strict_energy_margin": 0.105,
+          "sign_invariant_between_writes": true,
+          "requires_nonpositive_unbooked_energy_input": true,
+          "noise_or_thermal_perturbations_excluded": true,
+          "amplitude_pointwise_bound": "sqrt(1-sqrt(4*E/lambda)) <= abs(q) <= sqrt(1+sqrt(4*E/lambda))"
+        },
+        "Horizon": {
+          "Humains": {
+            "parties_3_1": 3960,
+            "unites": 99,
+            "plis": 99,
+            "perte_log_A_B_nats_par_choix": [
+              0.5527764357663149,
+              0.5432691057056591
+            ],
+            "gain_A_moins_B": 0.009507330060655723,
+            "Brier_A_B": [
+              0.18338399294100602,
+              0.17857459675845788
+            ],
+            "personnes_gain_strictement_positif": 63,
+            "moyenne_ponderee_egalement_par_personne": 0.009507330060655725
+          },
+          "GPT-3": {
+            "parties_3_1": 1576,
+            "unites": 1576,
+            "plis": 10,
+            "perte_log_A_B_nats_par_choix": [
+              0.24867698816140585,
+              0.24909372706478364
+            ],
+            "gain_A_moins_B": -0.0004167389033778131,
+            "Brier_A_B": [
+              0.08208155285656979,
+              0.08220691372800612
+            ],
+            "personnes_gain_strictement_positif": null,
+            "moyenne_ponderee_egalement_par_personne": null
+          }
+        },
+        "Crafter": {
+          "n_enfants_analyse_de_la_parole": 10,
+          "r_publie_arrondi": 0.8,
+          "p_bilateral_depuis_r_arrondi": 0.005455999999999987,
+          "p_publie_non_ajuste": 0.005,
+          "IC95_approche_Fisher_depuis_r_arrondi": [
+            0.34328844799174635,
+            0.9507383861974118
+          ],
+          "unite": "enfant",
+          "t": 3.7712361663282543,
+          "ddl": 8,
+          "analyse": "association entre deux résumés de la session",
+          "reanalysee_depuis": "statistiques publiées, pas les journaux individuels de Crafter"
+        },
+        "origine": "Programmes historiques réexécutés depuis les entrées jointes.",
+        "prolongement_latent": {
+          "H528": {
+            "preparations": 144,
+            "par_signe": 72,
+            "echantillons": 2401,
+            "pas": 0.002,
+            "t_fin": 24,
+            "t_fin_historique": 8,
+            "ecart_prefixe_144_trajectoires": 0.0,
+            "ecart_paire_publiee": 0.0,
+            "energie_max": 0.020000000000000004,
+            "barriere_min": 0.125,
+            "bornes_analytiques_globales": [
+              0.7745966692414834,
+              1.1832159566199232
+            ],
+            "derive_energie_relative_max": 2.494888324769016e-05,
+            "min_module_integration": 0.9841620942056583,
+            "max_module_echantillonne": 1.017400972954927,
+            "sortie_aveugle_eta_zero": 0.0,
+            "validation_DOP853": [
+              {
+                "bain": "m1",
+                "signe": -1,
+                "ecart_x_relatif": 4.3021811010289125e-05,
+                "ecart_q_absolu": 2.307426298919779e-07,
+                "bilan_DOP853": 1.1978092129272253e-10,
+                "evaluations": 12452
+              },
+              {
+                "bain": "m1",
+                "signe": 1,
+                "ecart_x_relatif": 0.00046155828116586353,
+                "ecart_q_absolu": 6.755312728090601e-07,
+                "bilan_DOP853": 1.2683760292064858e-10,
+                "evaluations": 12497
+              },
+              {
+                "bain": "m2",
+                "signe": -1,
+                "ecart_x_relatif": 4.28209582818669e-05,
+                "ecart_q_absolu": 2.3287303885233257e-07,
+                "bilan_DOP853": 1.2399057475187544e-10,
+                "evaluations": 9224
+              },
+              {
+                "bain": "m2",
+                "signe": 1,
+                "ecart_x_relatif": 0.0002209228228327932,
+                "ecart_q_absolu": 4.548915868429759e-07,
+                "bilan_DOP853": 1.4796185110466095e-10,
+                "evaluations": 9284
+              }
+            ]
+          },
+          "paires_de_phases": {
+            "type": "Témoin géométrique construit, unités réduites, aucune mesure biologique.",
+            "paires": 8,
+            "mots_essayes": 256,
+            "mots_proteges": 256,
+            "mots_apres_remise_a_zero": 1,
+            "ordre_final_max": 1.1319652230192997e-16,
+            "ecart_entre_branches_max": 1.047382306668854e-15,
+            "durees_illustrees": [
+              3.0,
+              3.25,
+              3.5,
+              3.75,
+              4.0,
+              4.25,
+              4.5,
+              4.75,
+              5.0
+            ],
+            "epsilon_illustre": 0.12,
+            "seuil_de_lecture": 0.16970562748477142,
+            "kappa_illustration": 1.0,
+            "perturbation_bornee_nu": 0.6,
+            "marge_invariante": 0.4,
+            "decisions": {
+              "A": 93,
+              "B": 93,
+              "suspension": 70
+            },
+            "mot_sous_effacement": "00000000",
+            "but_A": "10110100",
+            "but_B": "01001011"
+          },
+          "canal_H528": {
+            "coefficient_k0": 11.135569000000002,
+            "contraste": "abs(x_plus_tierce-x_moins_tierce)=2*abs(J)*k0*sinh(eta)",
+            "eta_calcules": [
+              0.0,
+              0.025,
+              0.05,
+              0.1,
+              0.15,
+              0.2,
+              0.5,
+              0.8
+            ],
+            "J_intervalle": [
+              0.02,
+              0.2
+            ],
+            "bains": [
+              "m1",
+              "m2"
+            ],
+            "paires_verifiees": 48,
+            "trajectoires_courtes": 96,
+            "ecart_relatif_max_hors_zero": 8.459131231129968e-06,
+            "contraste_a_zero": 0.0,
+            "pas": 5e-05,
+            "instants_sonde": [
+              0.02,
+              0.04
+            ],
+            "borne_continue_en_J": true
+          },
+          "resolution_et_transfert": {
+            "eta_ref": 0.8,
+            "J_ref": 0.1,
+            "J": [
+              0.02,
+              0.1,
+              0.2
+            ],
+            "k0": 11.135569000000002,
+            "C_ref": 1.97791308879261,
+            "d_controles": [
+              1.0,
+              1.6,
+              4.0,
+              5.333333333333334,
+              8.0,
+              16.0,
+              32.0
+            ],
+            "controles_courts": 48,
+            "domaine_trace": [
+              1,
+              1000
+            ],
+            "decouplage": "eta=0, d tend vers l'infini, C=0",
+            "critere": "u est une borne commune d'erreur par lecture. Garantie si C > 2u. R = C_ref / (2u).",
+            "transfert": {
+              "bain": "m1",
+              "lambda_barriere": 0.5,
+              "masse_q": 0.5,
+              "q_initial": 1,
+              "p_q_initial": 0,
+              "eta_J": [
+                [
+                  0.8,
+                  0.2
+                ],
+                [
+                  0.8,
+                  2.0
+                ],
+                [
+                  0.0,
+                  2.0
+                ]
+              ],
+              "horizon": 4.0,
+              "pas_Verlet": 0.001,
+              "critere": "Premier passage du signe de q sous une impulsion exclusivement en x.",
+              "mesures": [
+                {
+                  "eta": 0.8,
+                  "J": 0.2,
+                  "energie": 0.020000000000000004,
+                  "minimum_q_echantillonne": 0.984203603640186,
+                  "t_premier_zero_Verlet": null,
+                  "t_premier_zero_DOP853": null,
+                  "ecart_q_max_aux_temps_communs": 1.0070548150942216e-07,
+                  "derive_relative_Verlet": 6.190987828467997e-06,
+                  "derive_relative_DOP853": 3.8033985683139087e-11
+                },
+                {
+                  "eta": 0.8,
+                  "J": 2.0,
+                  "energie": 2.0,
+                  "minimum_q_echantillonne": -2.101759655842305,
+                  "t_premier_zero_Verlet": 1.247087863000035,
+                  "t_premier_zero_DOP853": 1.2470868875676409,
+                  "ecart_q_max_aux_temps_communs": 1.2836048673525724e-05,
+                  "derive_relative_Verlet": 6.165262537827232e-06,
+                  "derive_relative_DOP853": 3.5608183068802646e-12
+                },
+                {
+                  "eta": 0.0,
+                  "J": 2.0,
+                  "energie": 2.0,
+                  "minimum_q_echantillonne": 1.0,
+                  "t_premier_zero_Verlet": null,
+                  "t_premier_zero_DOP853": null,
+                  "ecart_q_max_aux_temps_communs": 0.0,
+                  "derive_relative_Verlet": 2.803904657566747e-06,
+                  "derive_relative_DOP853": 3.2938096694579144e-12
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "memory-extension": {
+      "fichiers_archives_verifies": 172,
+      "choix": "latent",
+      "latent": {
+        "H528": {
+          "preparations": 144,
+          "par_signe": 72,
+          "echantillons": 2401,
+          "pas": 0.002,
+          "t_fin": 24,
+          "t_fin_historique": 8,
+          "ecart_prefixe_144_trajectoires": 0.0,
+          "ecart_paire_publiee": 0.0,
+          "energie_max": 0.020000000000000004,
+          "barriere_min": 0.125,
+          "bornes_analytiques_globales": [
+            0.7745966692414834,
+            1.1832159566199232
+          ],
+          "derive_energie_relative_max": 2.494888324769016e-05,
+          "min_module_integration": 0.9841620942056583,
+          "max_module_echantillonne": 1.017400972954927,
+          "sortie_aveugle_eta_zero": 0.0,
+          "validation_DOP853": [
+            {
+              "bain": "m1",
+              "signe": -1,
+              "ecart_x_relatif": 4.3021811010289125e-05,
+              "ecart_q_absolu": 2.307426298919779e-07,
+              "bilan_DOP853": 1.1978092129272253e-10,
+              "evaluations": 12452
+            },
+            {
+              "bain": "m1",
+              "signe": 1,
+              "ecart_x_relatif": 0.00046155828116586353,
+              "ecart_q_absolu": 6.755312728090601e-07,
+              "bilan_DOP853": 1.2683760292064858e-10,
+              "evaluations": 12497
+            },
+            {
+              "bain": "m2",
+              "signe": -1,
+              "ecart_x_relatif": 4.28209582818669e-05,
+              "ecart_q_absolu": 2.3287303885233257e-07,
+              "bilan_DOP853": 1.2399057475187544e-10,
+              "evaluations": 9224
+            },
+            {
+              "bain": "m2",
+              "signe": 1,
+              "ecart_x_relatif": 0.0002209228228327932,
+              "ecart_q_absolu": 4.548915868429759e-07,
+              "bilan_DOP853": 1.4796185110466095e-10,
+              "evaluations": 9284
+            }
+          ]
+        },
+        "paires_de_phases": {
+          "type": "Témoin géométrique construit, unités réduites, aucune mesure biologique.",
+          "paires": 8,
+          "mots_essayes": 256,
+          "mots_proteges": 256,
+          "mots_apres_remise_a_zero": 1,
+          "ordre_final_max": 1.1319652230192997e-16,
+          "ecart_entre_branches_max": 1.047382306668854e-15,
+          "durees_illustrees": [
+            3.0,
+            3.25,
+            3.5,
+            3.75,
+            4.0,
+            4.25,
+            4.5,
+            4.75,
+            5.0
+          ],
+          "epsilon_illustre": 0.12,
+          "seuil_de_lecture": 0.16970562748477142,
+          "kappa_illustration": 1.0,
+          "perturbation_bornee_nu": 0.6,
+          "marge_invariante": 0.4,
+          "decisions": {
+            "A": 93,
+            "B": 93,
+            "suspension": 70
+          },
+          "mot_sous_effacement": "00000000",
+          "but_A": "10110100",
+          "but_B": "01001011"
+        },
+        "canal_H528": {
+          "coefficient_k0": 11.135569000000002,
+          "contraste": "abs(x_plus_tierce-x_moins_tierce)=2*abs(J)*k0*sinh(eta)",
+          "eta_calcules": [
+            0.0,
+            0.025,
+            0.05,
+            0.1,
+            0.15,
+            0.2,
+            0.5,
+            0.8
+          ],
+          "J_intervalle": [
+            0.02,
+            0.2
+          ],
+          "bains": [
+            "m1",
+            "m2"
+          ],
+          "paires_verifiees": 48,
+          "trajectoires_courtes": 96,
+          "ecart_relatif_max_hors_zero": 8.459131231129968e-06,
+          "contraste_a_zero": 0.0,
+          "pas": 5e-05,
+          "instants_sonde": [
+            0.02,
+            0.04
+          ],
+          "borne_continue_en_J": true
+        },
+        "resolution_et_transfert": {
+          "eta_ref": 0.8,
+          "J_ref": 0.1,
+          "J": [
+            0.02,
+            0.1,
+            0.2
+          ],
+          "k0": 11.135569000000002,
+          "C_ref": 1.97791308879261,
+          "d_controles": [
+            1.0,
+            1.6,
+            4.0,
+            5.333333333333334,
+            8.0,
+            16.0,
+            32.0
+          ],
+          "controles_courts": 48,
+          "domaine_trace": [
+            1,
+            1000
+          ],
+          "decouplage": "eta=0, d tend vers l'infini, C=0",
+          "critere": "u est une borne commune d'erreur par lecture. Garantie si C > 2u. R = C_ref / (2u).",
+          "transfert": {
+            "bain": "m1",
+            "lambda_barriere": 0.5,
+            "masse_q": 0.5,
+            "q_initial": 1,
+            "p_q_initial": 0,
+            "eta_J": [
+              [
+                0.8,
+                0.2
+              ],
+              [
+                0.8,
+                2.0
+              ],
+              [
+                0.0,
+                2.0
+              ]
+            ],
+            "horizon": 4.0,
+            "pas_Verlet": 0.001,
+            "critere": "Premier passage du signe de q sous une impulsion exclusivement en x.",
+            "mesures": [
+              {
+                "eta": 0.8,
+                "J": 0.2,
+                "energie": 0.020000000000000004,
+                "minimum_q_echantillonne": 0.984203603640186,
+                "t_premier_zero_Verlet": null,
+                "t_premier_zero_DOP853": null,
+                "ecart_q_max_aux_temps_communs": 1.0070548150942216e-07,
+                "derive_relative_Verlet": 6.190987828467997e-06,
+                "derive_relative_DOP853": 3.8033985683139087e-11
+              },
+              {
+                "eta": 0.8,
+                "J": 2.0,
+                "energie": 2.0,
+                "minimum_q_echantillonne": -2.101759655842305,
+                "t_premier_zero_Verlet": 1.247087863000035,
+                "t_premier_zero_DOP853": 1.2470868875676409,
+                "ecart_q_max_aux_temps_communs": 1.2836048673525724e-05,
+                "derive_relative_Verlet": 6.165262537827232e-06,
+                "derive_relative_DOP853": 3.5608183068802646e-12
+              },
+              {
+                "eta": 0.0,
+                "J": 2.0,
+                "energie": 2.0,
+                "minimum_q_echantillonne": 1.0,
+                "t_premier_zero_Verlet": null,
+                "t_premier_zero_DOP853": null,
+                "ecart_q_max_aux_temps_communs": 0.0,
+                "derive_relative_Verlet": 2.803904657566747e-06,
+                "derive_relative_DOP853": 3.2938096694579144e-12
+              }
+            ]
+          }
+        }
+      }
+    },
+    "archived-movies": {
+      "fichiers_archives_verifies": 172,
+      "choix": "animations",
+      "gifs": {
+        "fichiers": 13,
+        "especes": [
+          "Ar",
+          "CO2",
+          "H2O",
+          "Kr",
+          "Xe"
+        ],
+        "images_effectivement_decodees": 1206,
+        "images_echantillonnees_par_vue": 96,
+        "duree_ms_par_vue": 7680
+      }
+    },
+    "cosmology": {
+      "fichiers_archives_verifies": 172,
+      "choix": "cosmologie",
+      "cosmologie": {
+        "familles": 12,
+        "bandes_famille_canal": 2376,
+        "nombre_scores_verifies": 36,
+        "ecart_absolu_max_chi2_par_bande_contre_R573": 1.3322676295501878e-15,
+        "CAMB": "2.0.5",
+        "portee": "Bandes diagnostiques de largeur 30. Erreurs diagonales. Fermeture et transfert effectifs R573. L’étendue des douze courbes est une plage de modèles."
+      }
+    },
+    "physics": {
+      "fichiers_archives_verifies": 172,
+      "choix": "physique-rapide",
+      "physique_rapide": {
+        "sorties_identiques": 14
+      }
+    },
+    "strontium": {
+      "isotopes": [
+        87,
+        88
+      ],
+      "relative_error_denominators": [
+        "clock",
+        "red_minus_clock"
+      ],
+      "Sr87_signed_errors_Hz": {
+        "contact_equal_rule": 5594652470756.25,
+        "contact_area_rule": 356120579445.9375,
+        "spectral_linear": -308005440123.0,
+        "spectral_mixed": -42724556312.5
+      },
+      "Sr87_scales": {
+        "red_minus_clock_interval_Hz": 5601054894627.0,
+        "absolute_errors_pct_of_clock": {
+          "contact_equal_rule": 1.303422054391408,
+          "contact_area_rule": 0.08296769454381107,
+          "spectral_linear": 0.07175800206131186,
+          "spectral_mixed": 0.009953813798602681
+        },
+        "absolute_errors_pct_of_red_minus_clock": {
+          "contact_equal_rule": 99.8856925348671,
+          "contact_area_rule": 6.35809836085624,
+          "spectral_linear": 5.499061264663993,
+          "spectral_mixed": 0.7627948148389863
+        },
+        "predict_red_itself_error_pct_of_clock": 1.3049136681276172,
+        "predict_red_itself_error_pct_of_interval": 100.0,
+        "spectral_mixed_residual_over_input_u": 52.23302457001255
+      },
+      "Sr87_ritz_error_Hz": "110127.008"
+    },
+    "phase-controls": {
+      "initial_words": 256,
+      "times_per_word_per_case": 161,
+      "cases": [
+        {
+          "collective_disordering": false,
+          "relative_phase_reset": false,
+          "final_order_max": 1.0,
+          "distinct_final_words": 256
+        },
+        {
+          "collective_disordering": false,
+          "relative_phase_reset": true,
+          "final_order_max": 1.0,
+          "distinct_final_words": 1
+        },
+        {
+          "collective_disordering": true,
+          "relative_phase_reset": false,
+          "final_order_max": 6.938893903907228e-17,
+          "distinct_final_words": 256
+        },
+        {
+          "collective_disordering": true,
+          "relative_phase_reset": true,
+          "final_order_max": 2.501853776554201e-17,
+          "distinct_final_words": 1
+        }
+      ],
+      "maximum_visible_channel_error": 9.550499576785472e-16,
+      "maximum_relative_phase_channel_error": 9.346235988224957e-16,
+      "scope": "Independent imposed controls in a finite wave model; no biological death observed."
+    },
+    "projections": {
+      "beat-contact.gif": {
+        "sha256": "d9b31bf65e1250693ce9e2c9dc905f6bf489a90d26cd1a531d7380aa118d4c3e",
+        "matches_reference": true
+      },
+      "atomic-krypton.gif": {
+        "sha256": "734427cefb4ea7185aec4c1ee3a74087f8e766a121f9f7da4ab4fe7896768540",
+        "matches_reference": true
+      },
+      "molecular-krypton.gif": {
+        "sha256": "ffb2e1c91dc29d24f015fe514a74cb532d7fcd8c181aca1b140963511f3e7c40",
+        "matches_reference": true
+      },
+      "excited-dicarbon.gif": {
+        "sha256": "38aac582234d1c5754dd4fb2248f1b8221fdfa75aeab6768dceec40066f05521",
+        "matches_reference": true
+      },
+      "en/beat-contact.gif": {
+        "sha256": "f521530c81d4ed60029df3c34eceac531f08579ef36dc42350b4ed95424ef273",
+        "matches_reference": true
+      },
+      "en/atomic-krypton.gif": {
+        "sha256": "4cedaa3e0111bec63a4c2edcebc7de9679a2a7da549c48946b4e8e91a5bf62a7",
+        "matches_reference": true
+      },
+      "en/molecular-krypton.gif": {
+        "sha256": "cc6988339eaeee15a1eaafd7119350236aba71905e60b0d21edf39094bd5a3f9",
+        "matches_reference": true
+      },
+      "en/excited-dicarbon.gif": {
+        "sha256": "ae76389ad2c90e2fa8296dfb8a984a8f6a427a527f032a85e2c56f3a45213823",
+        "matches_reference": true
+      },
+      "films.js": {
+        "sha256": "2b1922c307b99b641c1c016ff577fad628a5ec105bafefe8fe259dad5d707631",
+        "matches_reference": true
+      },
+      "extended.js": {
+        "sha256": "60a302f1a4651b0952e5364002f3fc361285842d9ede4cff5538da18f72ff668",
+        "matches_reference": true
+      },
+      "crystals.js": {
+        "sha256": "b0cc22ece30082b7faad49c9584d2b3ba57efb849ad87e0a6675cdb34be7e5e4",
+        "matches_reference": true
+      },
+      "optics.js": {
+        "sha256": "dca14403c7aff33a36772357175dfff4c28e82b42d843b76d03fcd1ed47435aa",
+        "matches_reference": true
+      }
+    },
+    "proofs": {
+      "compiler": "Lean (version 4.30.0, x86_64-unknown-linux-gnu, commit d024af099ca4bf2c86f649261ebf59565dc8c622, Release)",
+      "checked_declarations": 84,
+      "no_listed_axioms": 78
+    },
+    "atlas": {
+      "elements": 118,
+      "isotopes": 5842,
+      "ions": 7139
+    },
+    "atomic-correspondence": {
+      "bank": {
+        "atoms": 118,
+        "positive_modes": 8812,
+        "Sr_static_positive_modes": 17,
+        "Sr_static_dominant_geometry_counts": {
+          "dipole": 3,
+          "quadrupole": 5,
+          "octupole": 7,
+          "residual": 2
+        },
+        "files": {
+          "BST_ATOMIC_MODE_BANK_Z001_Z118_R16.csv": {
+            "archived_sha256": "c68fce3e2fa08a552e8765ea37c5dd2a2bff85ee8afbd07facf6e18a48e3e5b8",
+            "recomputed_sha256": "c68fce3e2fa08a552e8765ea37c5dd2a2bff85ee8afbd07facf6e18a48e3e5b8"
+          },
+          "BST_ATOMIC_SIGNATURE_SUMMARY_Z001_Z118_R16.csv": {
+            "archived_sha256": "51e3841104980852c5da391edd0cc8e5205c9fed152921fca04ebe50504c63a1",
+            "recomputed_sha256": "51e3841104980852c5da391edd0cc8e5205c9fed152921fca04ebe50504c63a1"
+          }
+        },
+        "R16_source_sha256": "eb9fa65e615e160925a9fce85645a45ffcc65aa8fcd083f179f3f155ec00a183"
+      },
+      "Sr87_central_ranks": [
+        1,
+        4,
+        15
+      ],
+      "Sr87_at_nearby_contrasts": [
+        {
+          "contrast": 0.99,
+          "tracked": [
+            1,
+            4,
+            15
+          ],
+          "frequency_reselection": [
+            2,
+            7,
+            17
+          ],
+          "minimum_shape_overlap_squared": 0.994653243127197,
+          "tracked_residual_Hz": 394811425401.0
+        },
+        {
+          "contrast": 1.0,
+          "tracked": [
+            1,
+            4,
+            15
+          ],
+          "frequency_reselection": [
+            1,
+            4,
+            15
+          ],
+          "minimum_shape_overlap_squared": 1.0,
+          "tracked_residual_Hz": 356120579444.875
+        },
+        {
+          "contrast": 1.01,
+          "tracked": [
+            1,
+            4,
+            15
+          ],
+          "frequency_reselection": [
+            1,
+            5,
+            15
+          ],
+          "minimum_shape_overlap_squared": 0.9975326064480159,
+          "tracked_residual_Hz": 317616849139.3125
+        }
+      ]
+    },
+    "joint-validation": {
+      "tolerance_pct_of_each_spacing": 5,
+      "assemblies": 576,
+      "benchmark_checks_per_assembly": 67,
+      "assemblies_passing_benchmark": 192,
+      "example_assembly": "T003",
+      "example_classifications": {
+        "D": 9,
+        "H": 24,
+        "C": 34
+      },
+      "benchmark_code_key": {
+        "C": "calculated or compared on this assembly",
+        "H": "local result retained at fixed parameters",
+        "D": "evidence independent of this setting"
+      },
+      "registered_rows_with_scoped_result": 68,
+      "rows_with_explicit_conditions": 44,
+      "whole_contracts_met": 6,
+      "whole_contracts_total": 28,
+      "grid": [
+        {
+          "contrast": 0.95,
+          "tracked_ranks": [
+            1,
+            5,
+            15
+          ],
+          "minimum_squared_shape_overlap": 0.510298565228432,
+          "isotopes": {
+            "87": {
+              "signed_frequency_errors_Hz": {
+                "clock_geometry": 536086207677.625,
+                "upper_geometry": -641651122724.0,
+                "clock_lifetimes": -42724556312.5
+              },
+              "spacing_denominators_Hz": {
+                "red_minus_clock": 5601054894627.0,
+                "upper_minus_red": 11818120669500
+              },
+              "signed_errors_pct_of_spacing": {
+                "clock_gap_geometry": 9.571165035212987,
+                "upper_gap_geometry": -5.429383746097313,
+                "clock_gap_lifetimes": -0.7627948148389863
+              },
+              "within_five_percent": false
+            },
+            "88": {
+              "signed_frequency_errors_Hz": {
+                "clock_geometry": 536085481683.8125,
+                "upper_geometry": -641650247836.125,
+                "clock_lifetimes": -42725000531.0
+              },
+              "spacing_denominators_Hz": {
+                "red_minus_clock": 5601054892993.0,
+                "upper_minus_red": 11818121393000
+              },
+              "signed_errors_pct_of_spacing": {
+                "clock_gap_geometry": 9.571152076271616,
+                "upper_gap_geometry": -5.429376010777664,
+                "clock_gap_lifetimes": -0.7628027460407429
+              },
+              "within_five_percent": false
+            }
+          },
+          "strontium_pass": false,
+          "compatible_assemblies": 0
+        },
+        {
+          "contrast": 0.99,
+          "tracked_ranks": [
+            1,
+            4,
+            15
+          ],
+          "minimum_squared_shape_overlap": 0.994653243127197,
+          "isotopes": {
+            "87": {
+              "signed_frequency_errors_Hz": {
+                "clock_geometry": 394811425401.0,
+                "upper_geometry": -153716332695.5625,
+                "clock_lifetimes": -42724556312.5
+              },
+              "spacing_denominators_Hz": {
+                "red_minus_clock": 5601054894627.0,
+                "upper_minus_red": 11818120669500
+              },
+              "signed_errors_pct_of_spacing": {
+                "clock_gap_geometry": 7.0488761997268785,
+                "upper_gap_geometry": -1.3006833911610916,
+                "clock_gap_lifetimes": -0.7627948148389863
+              },
+              "within_five_percent": false
+            },
+            "88": {
+              "signed_frequency_errors_Hz": {
+                "clock_geometry": 394810679203.0,
+                "upper_geometry": -153715388026.3125,
+                "clock_lifetimes": -42725000531.0
+              },
+              "spacing_denominators_Hz": {
+                "red_minus_clock": 5601054892993.0,
+                "upper_minus_red": 11818121393000
+              },
+              "signed_errors_pct_of_spacing": {
+                "clock_gap_geometry": 7.048862879328568,
+                "upper_gap_geometry": -1.3006753181377861,
+                "clock_gap_lifetimes": -0.7628027460407429
+              },
+              "within_five_percent": false
+            }
+          },
+          "strontium_pass": false,
+          "compatible_assemblies": 0
+        },
+        {
+          "contrast": 1.0,
+          "tracked_ranks": [
+            1,
+            4,
+            15
+          ],
+          "minimum_squared_shape_overlap": 1.0,
+          "isotopes": {
+            "87": {
+              "signed_frequency_errors_Hz": {
+                "clock_geometry": 356120579444.875,
+                "upper_geometry": -34665120270.5,
+                "clock_lifetimes": -42724556312.5
+              },
+              "spacing_denominators_Hz": {
+                "red_minus_clock": 5601054894627.0,
+                "upper_minus_red": 11818120669500
+              },
+              "signed_errors_pct_of_spacing": {
+                "clock_gap_geometry": 6.35809836083727,
+                "upper_gap_geometry": -0.29332176612448324,
+                "clock_gap_lifetimes": -0.7627948148389863
+              },
+              "within_five_percent": false
+            },
+            "88": {
+              "signed_frequency_errors_Hz": {
+                "clock_geometry": 356119827713.5,
+                "upper_geometry": -34664158575.3125,
+                "clock_lifetimes": -42725000531.0
+              },
+              "spacing_denominators_Hz": {
+                "red_minus_clock": 5601054892993.0,
+                "upper_minus_red": 11818121393000
+              },
+              "signed_errors_pct_of_spacing": {
+                "clock_gap_geometry": 6.358084941445781,
+                "upper_gap_geometry": -0.2933136107050352,
+                "clock_gap_lifetimes": -0.7628027460407429
+              },
+              "within_five_percent": false
+            }
+          },
+          "strontium_pass": false,
+          "compatible_assemblies": 0
+        },
+        {
+          "contrast": 1.01,
+          "tracked_ranks": [
+            1,
+            4,
+            15
+          ],
+          "minimum_squared_shape_overlap": 0.9975326064480159,
+          "isotopes": {
+            "87": {
+              "signed_frequency_errors_Hz": {
+                "clock_geometry": 317616849139.3125,
+                "upper_geometry": 84796748803.8125,
+                "clock_lifetimes": -42724556312.5
+              },
+              "spacing_denominators_Hz": {
+                "red_minus_clock": 5601054894627.0,
+                "upper_minus_red": 11818120669500
+              },
+              "signed_errors_pct_of_spacing": {
+                "clock_gap_geometry": 5.6706612435453385,
+                "upper_gap_geometry": 0.717514663923296,
+                "clock_gap_lifetimes": -0.7627948148389863
+              },
+              "within_five_percent": false
+            },
+            "88": {
+              "signed_frequency_errors_Hz": {
+                "clock_geometry": 317616091901.375,
+                "upper_geometry": 84797727583.6875,
+                "clock_lifetimes": -42725000531.0
+              },
+              "spacing_denominators_Hz": {
+                "red_minus_clock": 5601054892993.0,
+                "upper_minus_red": 11818121393000
+              },
+              "signed_errors_pct_of_spacing": {
+                "clock_gap_geometry": 5.6706477256403485,
+                "upper_gap_geometry": 0.7175229020232784,
+                "clock_gap_lifetimes": -0.7628027460407429
+              },
+              "within_five_percent": false
+            }
+          },
+          "strontium_pass": false,
+          "compatible_assemblies": 0
+        },
+        {
+          "contrast": 1.05,
+          "tracked_ranks": [
+            1,
+            4,
+            15
+          ],
+          "minimum_squared_shape_overlap": 0.977663794882837,
+          "isotopes": {
+            "87": {
+              "signed_frequency_errors_Hz": {
+                "clock_geometry": 163865393031.0,
+                "upper_geometry": 564979540074.8125,
+                "clock_lifetimes": -42724556312.5
+              },
+              "spacing_denominators_Hz": {
+                "red_minus_clock": 5601054894627.0,
+                "upper_minus_red": 11818120669500
+              },
+              "signed_errors_pct_of_spacing": {
+                "clock_gap_geometry": 2.925616622472195,
+                "upper_gap_geometry": 4.780620843827579,
+                "clock_gap_lifetimes": -0.7627948148389863
+              },
+              "within_five_percent": true
+            },
+            "88": {
+              "signed_frequency_errors_Hz": {
+                "clock_geometry": 163864613804.5625,
+                "upper_geometry": 564980587527.375,
+                "clock_lifetimes": -42725000531.0
+              },
+              "spacing_denominators_Hz": {
+                "red_minus_clock": 5601054892993.0,
+                "upper_minus_red": 11818121393000
+              },
+              "signed_errors_pct_of_spacing": {
+                "clock_gap_geometry": 2.9256027111885565,
+                "upper_gap_geometry": 4.780629414265613,
+                "clock_gap_lifetimes": -0.7628027460407429
+              },
+              "within_five_percent": true
+            }
+          },
+          "strontium_pass": true,
+          "compatible_assemblies": 192
+        }
+      ],
+      "scope": "The five existing strontium contrasts are scored together. The upper spacing contributed to the initial mode assignment. The clock measurement is used for scoring and for reporting which contrast passes. Contrast is local to the strontium mass operator. It is separate from the six assembly coordinates. Reusing the same strontium readout for the 576 rows tests coexistence; it does not test a shared law for this coefficient in other domains."
+    }
+  },
+  "additional_checks": {
+    "formal_declarations_with_sorryAx": 0,
+    "measurement_panel": {
+      "domains": 8,
+      "preparations": 154,
+      "element_views": 118,
+      "fluoride_modes": 66,
+      "beat_max_abs_difference": 4.949374243778948e-12,
+      "exported_bytes": 218659
+    },
+    "projections_canvas": {
+      "reference_films": 8,
+      "decoded_reference_frames": 944,
+      "animated_preparations_and_readings": 541,
+      "neutral_counts": 118,
+      "distinct_sky_residuals": 12,
+      "default_binary_max_energy_drift": 5.671262727845948e-06,
+      "centre_of_mass_error_m": 2.9109692092155373e-08,
+      "step_halving_max_difference_m": 179.91060049295703,
+      "default_triple_contact_s": 67346.88136773878
+    },
+    "thermal_atlas": {
+      "command": "node observatory/check-thermal-atlas.cjs",
+      "exit_code": 0,
+      "result": "Passed isotope/ion counts and independent frame export settings, four crystal motifs, two camera axes and phase-specific spectroscopy including six water and ice path lengths."
+    },
+    "independent_gravity_integration": {
+      "binary": {
+        "sampled_position_difference_m": 239.87769145031265,
+        "duration_difference_s": 0.0,
+        "hours": 96.0,
+        "contact": null
+      },
+      "triple": {
+        "sampled_position_difference_m": 19.79679475101933,
+        "duration_difference_s": 0.03286146331811324,
+        "hours": 18.707467046594104,
+        "contact": [
+          2,
+          3
+        ]
+      }
+    },
+    "regenerated_field_from_long_mode": {
+      "components": "Full N72 reference trajectory, including driven and background histories, and 12 zero-defect wave grids up to N551. Each component was regenerated from its initial conditions.",
+      "sha256_matching_archive_bytes": {
+        "MOUVEMENT_N72_impedance_dt0.09.json": "6ed2da927f12cf01693533d70776dc09cc129d414e87cfcdb8757e18f9bdd335",
+        "VIDE_N111_dt.045_W12.json": "bd76979d401a78e51ed10c24bd75f2b3493a9f01d4a4c0e48521e32b80f70b7b",
+        "VIDE_N221_dt.0225_W10.json": "37dd5d7796b5766d011ca354f0f6e5422d31f1b77579eac0874452d56ac7f6d8",
+        "VIDE_N331_dt.015_W9.json": "dc6e2c8d6723bea1eaff6ddfd44e35a2de956c36a62ef551aaf3f835a25674c8",
+        "VIDE_N40_dt.045_W13.json": "ade978f88a9934472c65ceb03bd532f74c6cce820fa56582b286c0f5fb86090b",
+        "VIDE_N40_dt.09_W13.json": "398b7bf1a1fb3053a1286a79d7b9a7da8cdb58e1306ab2c544630bdce4352402",
+        "VIDE_N40_dt.09_W16.json": "127c839121acdfc0a911c882b71dabeda6598864b7eaa0e0514d5f3757c22a9b",
+        "VIDE_N441_dt.01125_W8.75.json": "624ff4d59fdf8662232d5b222a38ebe27a14df31ccaf8e67f09a8d2dd7ced350",
+        "VIDE_N48_dt.09_W13.json": "7a1ad1e5f2db5effef6756afe2474c827bbb97d1bb6cc6062a122461e5313e11",
+        "VIDE_N551_dt.009_W8.5.json": "c817df8b5c922c9f907c7b6423b8bad94058f4fe32a57128019c07d6ba05076c",
+        "VIDE_N56_dt.09_W13.json": "0fc4faff55c5655cbb304483153d79a7911b65d4a9f6ac5d28592b10b6b2522e",
+        "VIDE_N64_dt.09_W13.json": "8c596386b11f9de39d116e2bda9c2a710cc78bf96bbbd9766a00ca50ad174fd8",
+        "VIDE_N72_dt.09_W13.json": "bb7c19d1cda72128d6ef458de0041d08a03ab8ae4e6a5c672d494294d2c1b8d9"
+      }
+    },
+    "archived_shear_timeseries_reanalysis": {
+      "source": "BST_R573_AUDIT_ET_COURBES.zip, BST_R573/trajectoires_cisaillement",
+      "procedure": "Run code/cisaillement.py --complet --reprise with the 24 supplied CSV histories. The forces are not reintegrated in this check. The regenerated Green–Kubo and Helfand table equals the archived JSON after parsing.",
+      "distinct_archived_histories": 24,
+      "reported_trajectory_horizons": 48,
+      "group_summaries_matching": 8,
+      "trajectory_sha256": {
+        "Kr_0_256_44301_800.csv": "51b5fbc61440e165b744e7b76e5ea2b28d59713ecc7e9fdc96a1e6d864ec3b95",
+        "Kr_0_256_44309_800.csv": "80938722c31f0e756562333299bb679168f36b406206c9f61347cf35138a3b36",
+        "Kr_0_256_44311_800.csv": "17e795b94f8e13d1bd579d4f859eae045df0ceff14fb4d92a0852dce73e26f2d",
+        "Kr_0_256_44317_800.csv": "aafc01385fef8995b1cd79b39792405f13eb60dfe273222b57c3391ab16867b1",
+        "Kr_0_256_44321_800.csv": "7889d84bcc18ddfcbde4c1ac7a5f6234a5d179d848599f29e22a6e5b2b67c088",
+        "Kr_0_256_44327_800.csv": "e872be2047d5a2d5a4eca8eb9812c5c39a732bba45bf482e06b288372e2f1c17",
+        "Kr_0_500_44301_960.csv": "63ff7b10f383b44676ddac68af76bee86b86cf52bae55c7c4496875832350498",
+        "Kr_0_500_44309_960.csv": "f02a5a4bd814955d910b91b0b7ded2db84a3b7dcaa7cb7a3820813dea42f621e",
+        "Kr_0_500_44311_960.csv": "76995814b0c51437c5819b9e485145d3d871e3837760e0d7a07ead0a31d2d5e0",
+        "Kr_0_500_44317_960.csv": "ebf6bfebc5b6d33951095971af76a270364b9816d168a6a7b2ec818ee4473aef",
+        "Kr_0_500_44321_960.csv": "fb281ec2c698071d5d3e150a84fcc21dba05703e2eb2eaf7bcd7961333ea6135",
+        "Kr_0_500_44327_960.csv": "59c0d4c2b20370db47fa32f1acfc8ff1a0fe7e732467a5dc8cae110878d43899",
+        "Xe_0_256_44301_800.csv": "01d93052c21576e65110f08c8cb9016c99af73ae3ae864047e824eb0252d6e1d",
+        "Xe_0_256_44309_800.csv": "24f717fe1f5e0e78e8d50ba4dba43b4180fe7e52a78b0b239117161ddb4837f1",
+        "Xe_0_256_44311_800.csv": "f5c2a8a1e3f50050b8ce78d9800c2e046aea2093604f890a7e06e88093ec7f11",
+        "Xe_0_256_44317_800.csv": "ad9688ccadfec3e10b4e0abfa0f5e013d93c0217a1e12d8f38c03e2fff6f519e",
+        "Xe_0_256_44321_800.csv": "a43c924ba95c520ac4351497028cf96e40af58ae7f6c0474f0919b8b706e685e",
+        "Xe_0_256_44327_800.csv": "7dfbf99f323ad65e1c3010a33920d5a8fa9718c0025d1ebafd53cf4c41d64361",
+        "Xe_0_500_44301_960.csv": "0309634eff3204d1055e9db68e63b3541caa773381d3b7b1f982c957dbd74f0d",
+        "Xe_0_500_44309_960.csv": "d53b161ba393a44ec1e62c98fe0f6d701cc19188fa47b01a972fdca789cdb740",
+        "Xe_0_500_44311_960.csv": "26049d90cbe4677eb6a6bdf1468d77ea15115d1accdfb6d674905629008ae804",
+        "Xe_0_500_44317_960.csv": "8ea4dfda34cf6aa6a308837220fb850fc202a39d22a109d5e4856d8ff36ddb9d",
+        "Xe_0_500_44321_960.csv": "e9b53c4ddc1308cc7d7c5222cd14cf97c9def0e08696fbaa2447b69e6b6deac6",
+        "Xe_0_500_44327_960.csv": "ec609c4337c561599bd8b670a8188283d903d6d34b30c2ceaefa002023c43ead"
+      }
+    },
+    "pdf_link_annotations": {
+      "fr": {
+        "pages": 89,
+        "repository_link_pages": [
+          1,
+          60,
+          67
+        ],
+        "author_profile_link_pages": [
+          1
+        ],
+        "spin_echo_reference_pages": [
+          46
+        ]
+      },
+      "en": {
+        "pages": 82,
+        "repository_link_pages": [
+          1,
+          56,
+          63
+        ],
+        "author_profile_link_pages": [
+          1
+        ],
+        "spin_echo_reference_pages": [
+          43
+        ]
+      }
+    },
+    "bilingual_manuscript_structure": {
+      "fr": {
+        "counts": {
+          "InlineMath": 962,
+          "DisplayMath": 22,
+          "tables": 16,
+          "images": 16
+        },
+        "external_links": 176,
+        "distinct_urls": 102
+      },
+      "en": {
+        "counts": {
+          "InlineMath": 962,
+          "DisplayMath": 22,
+          "tables": 16,
+          "images": 16
+        },
+        "external_links": 176,
+        "distinct_urls": 102
+      }
+    },
+    "upstream_long_physics": {
+      "command": "python3 replay.py long --output ../bst-long",
+      "exit_code": 0,
+      "checked_public_summary_files": 14,
+      "public_summary_files_byte_identical": 14,
+      "summary_sha256": {
+        "resultats/ATLAS_VERIFIE_R573.json": "60df6c7e3e5509b668f3734dd4afab3530819a0deed9ec7097cf1a2ade54060e",
+        "AUDIT_DES_68_LIGNES_R573.csv": "3a564e9551e8c9de46c660873b91318da1daf6c8f98d19ccee1b267f4f1ac752",
+        "REGISTRE_68_LIGNES_R573.json": "4379b6108f311132632c906ecc49cdcf2f57c2ce56c5e6dbf5988394da2947f1",
+        "DECISION_R573.json": "309c1caa07dedf032a9baf721de3bcfde7f6d025fe8a0af65f142db85059564d",
+        "PARAMETRES_DES_FAMILLES_R573.json": "1b4807c7f5bc7e99b1fc99d3f33822ec879262c39ab3eec0e8b7ebb348e5e758",
+        "resultats/FLUX_CORRIGE_R573.json": "6cda8f6996186a2ff2c9bd28ac4ccbbcb34acce5326f28eba7dcb650037a0b06",
+        "resultats/GEOMETRIE_ET_PORTS_R573.json": "d5153dd05a03e12b8c243cd4203fca983887a41c58229db2e4e726227b2b9114",
+        "resultats/INTERVALLES_DIFFUSION_R573.json": "013f3f0f948070e527c8e6d0f855fcee576b83be0ada3b438b4dc37c06fe3e8c",
+        "resultats/BILAN_CISAILLEMENT_R573.json": "62176ad9fc21172caeac827a838e63d4ec7ef43fd8effd547a746eaa2fb6f51e",
+        "resultats/CONDITIONS_DE_PORTEE_R573.json": "5ddef64ea7fd2c22b6401c32d1b514cb8b4a191d0f6372a262b9c544e95daf26",
+        "resultats/ASSEMBLAGES_68_R573.json": "392380ba6564ca641caf3f356b4f84d9bbcf9da4b20952601c332eaad1bdaee7",
+        "resultats/DECISION_GLOBALE_R573.json": "f5ea4e88acf413e50e8345a2b99fa507dd8e206547e067495579d6d7f4962884",
+        "resultats/COURBES_DU_SUBSTRAT_R573.csv": "8e2735ab3a79eaa4f63d2728b63023daf7199fb089479bd8e3947d947d22c036",
+        "figures/COURBES_DU_SUBSTRAT_R573.png": "34391f2f8c7f54e07bdb5180e26170bf069ec912929dff91ee83399e182d4460"
+      },
+      "nonidentical_public_summaries": {},
+      "from_scratch_shear": {
+        "independent_trajectories": 24,
+        "trajectory_sha256_matching_archived_CSVs": 24,
+        "reported_rows_at_all_horizons": 48,
+        "groups": 8,
+        "matched_archived_values": true
+      },
+      "archived_result_json_byte_identical": 37,
+      "other_archived_result_json": {
+        "CISAILLEMENT_R573.json": {
+          "shared_numeric_fields_that_change": 0,
+          "largest_absolute_numeric_change": 0.0,
+          "other_changes": [
+            [
+              "/trajectoires/0/sha256_trajectoire",
+              null,
+              "af8442a96c872174d318d361684e2c0f1581db987fcf88c71c5a00ed44a06ff6"
+            ],
+            [
+              "/trajectoires/1/sha256_trajectoire",
+              null,
+              "9186ff7a702d6d4e0db4a57f72cce9c096c24760a2d48f0127b2600dcfa0faae"
+            ],
+            [
+              "/trajectoires/2/sha256_trajectoire",
+              null,
+              "1c114e72d3e6eb8b5b62a42f296a273f8e93927e1d94c0ce7c295b0a9718d344"
+            ],
+            [
+              "/trajectoires/3/sha256_trajectoire",
+              null,
+              "79762c298830740a6a03522ebb839a1d113647efd062cb9ea8d18eccf027a7ed"
+            ]
+          ]
+        },
+        "COSMOLOGIE_ET_OSCILLATIONS_R573.json": {
+          "shared_numeric_fields_that_change": 21,
+          "largest_absolute_numeric_change": 1.5543122344752192e-15,
+          "other_changes": []
+        }
+      }
+    },
+    "all_neutral_atlas_films": {
+      "full_movies": 118,
+      "full_frames": 8496,
+      "compact_frames": 2832,
+      "compact_movies_byte_identical_to_published": 118,
+      "durations_matching": 118
+    },
+    "offline_chromium": {
+      "pages": [
+        "modular HTML",
+        "single-file HTML"
+      ],
+      "controls": "Neutral, isotope, ion, thermal, sky, gravity, bidirectional language controls and full reference-GIF download.",
+      "cases": [
+        {
+          "page": "modular",
+          "viewport": [
+            1120,
+            820
+          ],
+          "languages_and_downloads": [
+            "en",
+            "fr"
+          ],
+          "identical_GIF_bytes": [
+            2519741,
+            2613234
+          ],
+          "page_errors": []
+        },
+        {
+          "page": "modular",
+          "viewport": [
+            390,
+            844
+          ],
+          "languages_and_downloads": [
+            "en",
+            "fr"
+          ],
+          "identical_GIF_bytes": [
+            2519741,
+            2613234
+          ],
+          "page_errors": []
+        },
+        {
+          "page": "standalone",
+          "viewport": [
+            1120,
+            820
+          ],
+          "languages_and_downloads": [
+            "en",
+            "fr"
+          ],
+          "identical_GIF_bytes": [
+            2519741,
+            2613234
+          ],
+          "page_errors": []
+        },
+        {
+          "page": "standalone",
+          "viewport": [
+            390,
+            844
+          ],
+          "languages_and_downloads": [
+            "en",
+            "fr"
+          ],
+          "identical_GIF_bytes": [
+            2519741,
+            2613234
+          ],
+          "page_errors": []
+        }
+      ]
+    },
+    "earlier_standalone_strontium_supplement": {
+      "predictions.json": {
+        "earlier_result_sha256": "23f9801ebc1326f3aeadf582499105051bb4a1f292015b26815d17bf5c5dbaf8",
+        "largest_absolute_numeric_difference": 1.0625,
+        "field": "/contacts/isotopes/88/solid_angle/clock_Hz",
+        "unit_at_largest_difference": "Hz"
+      },
+      "comparison.json": {
+        "earlier_result_sha256": "4acd87b4ddd5336d106554c71bd5ff615e07a9857f0d8ec4dacef25579d516c0",
+        "largest_absolute_numeric_difference": 1.0625,
+        "field": "/by_isotope/88/signed_errors_Hz/contact_area_rule",
+        "unit_at_largest_difference": "Hz"
+      }
+    },
+    "manuscript_parity": {
+      "command": "python3 paper/check.py",
+      "equations": {
+        "InlineMath": 962,
+        "DisplayMath": 22
+      },
+      "external_link_occurrences": 176,
+      "distinct_external_targets": 102,
+      "internal_link_occurrences": 24,
+      "figures": 16,
+      "headings": 108,
+      "top_level_headings": 13
+    },
+    "R16_mode_tracking_rotation_and_relabelling": {
+      "contrasts": 5,
+      "tracked_and_frequency_selected_ranks_match": true,
+      "max_shape_fraction_change": 1.834421503588146e-12,
+      "max_squared_overlap_change": 1.0614842338441122e-11,
+      "max_tracked_frequency_change_Hz": 0.875
+    },
+    "archival_sources_for_atomic_assignment": {
+      "V92_V93_passation_extract_from_R298": {
+        "sha256": "aeb11aff2dd6dccb8bb1b7c891ae01e17236f6d936f639bc9f66c74f880fe553",
+        "source": "BST_R298_CYCLES_SPDF.zip: BST_R298/sources/EXTRAIT_PASSATION_V92_V93_SECTION_2.md",
+        "scope": "Sector capacities and order are geometric outputs. The s, p, d, f nomenclature is an interpretation."
+      },
+      "R16": {
+        "archive": "supplement/atomic-signatures.zip",
+        "original_name": "BST_ATOMIC_SIGNATURE_MODAL_COMPOSITION_R16_RETURN.zip",
+        "sha256": "eb9fa65e615e160925a9fce85645a45ffcc65aa8fcd083f179f3f155ec00a183"
+      },
+      "published_Sr_geometry": "redaction/heritage_atomique/v92_r1_upper_atomic_atlas_Z37_Z118.csv; v93_r1_upper_dynamic_contact_atlas_Z37_Z118.csv; v94_r9_upper_contact_load_identity_operator_atlas_Z37_Z118.csv (paths within staged benchmark)",
+      "published_electronic_states": "redaction/donnees/Niveaux_SrI.json (Sansonetti and Nave)"
+    },
+    "red_line_uncertainty": {
+      "primary_source": "https://doi.org/10.1103/PhysRevLett.91.243002",
+      "red88_total_Hz": 10000,
+      "tabulation": "https://doi.org/10.1063/1.3449176",
+      "tabulated_systematic_and_statistical_Hz": [
+        5000,
+        5000
+      ],
+      "propagated_lifetime_model_input_u_Hz": {
+        "87_Hz": 817960603.740886,
+        "88_Hz": 817960354.2371922,
+        "88_minus_87_Hz": 26619.094372057
+      },
+      "convention": "The uncertainty propagation uses the total quoted in the primary report as one input on the red line."
+    }
+  },
+  "scope": "The standard replay checks the distributed scientific inputs and all stated section results. The long command regenerates the upstream fields, transport trajectories, and joint register from the archived initial conditions. Calibration, the scope of the existing controls, and the empirical requirements for electronic assignment and persistence of a person are specified in the manuscript."
+}
