@@ -523,7 +523,7 @@ Dans le suivi de Voss et de ses collègues, le coma initial d’un jeune homme a
 
 **Une trace que le rappel ordinaire n’exprime plus.** Tomás Ryan et ses collègues ont étudié une amnésie provoquée chez la souris. L’activation ciblée de neurones marqués lors de l’apprentissage a fait réapparaître une réponse apprise. Un changement de voie de lecture permet ici de retrouver une distinction que le rappel habituel n’exprimait plus. Les animaux étaient vivants et des connexions spécifiques subsistaient. Cette expérience étaye la dissociation entre accès et persistance d’un apprentissage. [Étude de Ryan et coll.](https://doi.org/10.1126/science.aaa5542)
 
-Chez l’humain, William Beecher Scoville et Brenda Milner ont décrit une perte durable de la capacité à former de nouveaux souvenirs chez des patients ayant subi certaines résections bilatérales du lobe temporal médian. La conservation d’une histoire à travers le renouvellement de la matière est donc compatible avec la dépendance de certaines fonctions de mémoire à une organisation cérébrale précise. [Étude de Scoville et Milner](https://doi.org/10.1136/jnnp.20.1.11)
+Chez l’humain, William Beecher Scoville et Brenda Milner ont décrit une perte durable de la capacité à former de nouveaux souvenirs chez des patients ayant subi certaines résections bilatérales de la partie médiale des lobes temporaux. La conservation d’une histoire à travers le renouvellement de la matière est donc compatible avec la dépendance de certaines fonctions de mémoire à une organisation cérébrale précise. [Étude de Scoville et Milner](https://doi.org/10.1136/jnnp.20.1.11)
 
 ## Ce que testent les modèles de mémoire {#memory-models}
 
@@ -1427,7 +1427,7 @@ Le fichier `evidence/bibliography.csv` indexe les sources externes et indique le
 
 **Tomás J. Ryan, Dheeraj S. Roy, Michele Pignatelli, Autumn Arons et Susumu Tonegawa.** Réexpression d’une réponse apprise après activation de cellules marquées chez la souris. [Référence de la contribution](https://doi.org/10.1126/science.aaa5542)
 
-**William Beecher Scoville et Brenda Milner.** Étude des effets de résections temporales médianes bilatérales sur la formation de nouveaux souvenirs. [Référence de la contribution](https://doi.org/10.1136/jnnp.20.1.11)
+**William Beecher Scoville et Brenda Milner.** Étude des effets de résections bilatérales de la partie médiale des lobes temporaux sur la formation de nouveaux souvenirs. [Référence de la contribution](https://doi.org/10.1136/jnnp.20.1.11)
 
 **Matthew Sarraf, Michael A. Woodley of Menie et Patrizio Tressoldi.** Méta-analyse des classements de lectures. L’attribution à une source personnelle demeure ouverte. [Référence de la contribution](https://doi.org/10.1016/j.explore.2020.04.002)
 
